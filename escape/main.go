@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+几种变量逃逸的情况
+*/
+
 // 1 指针类型的逃逸
 func escape1() *int {
 	var a int = 1
